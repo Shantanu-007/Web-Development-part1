@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    background-color: rosybrown;
+   
+}
+.logo1{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+ width: 30%;
+ border: 3px solid black;
+ border-radius: 80px;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 22px 21px;
+    align-items: center;
+
+}
+.nav-list{
+width: 50vw;
+background-color: blue;
+display: flex;
+}
+.nav-list li a{
+          
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+    color: grey;
+
+}
+.rightnav{
+    display: flexbox;
+    width: 50%;
+    background-color: blue;
+    text-align: right;
+
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: solid grey;
+    border-radius: 6px;
+}
